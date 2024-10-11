@@ -1,1 +1,0 @@
-dns install nginx
