@@ -4,10 +4,6 @@ terraform {
       source  = "hashicorp/aws"
       version = "5.73.0"
     }
-    aws = {
-      source  = "hcavarsan/aws"
-      version = "3.11.6"
-    }
   }
 }
 resource "aws_instance" "frontend" {
