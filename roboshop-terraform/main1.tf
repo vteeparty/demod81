@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     aws = {
-      source  = "brandon-bird-yolabs/aws"
+      source  = "hashicorp/aws"
       version = "3.35.13"
     }
   }
