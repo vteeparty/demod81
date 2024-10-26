@@ -65,7 +65,7 @@ variable "map1" {
 ##getting output from the list and map
 
 output "list1_1" {
-  value = var.list1[4]
+  value = var.list1[2]
 }
 
 output "course_info_map1" {
