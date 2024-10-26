@@ -7,6 +7,6 @@ terraform {
   }
 }
 resource "aws_instance" "tf1" {
-  ami           = "t2R2bJ#Shyzx"
+  ami           = "ami-09c813fb71547fc4f"
   instance_type = "t3.small"
 }
