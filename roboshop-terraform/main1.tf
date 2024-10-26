@@ -6,7 +6,7 @@ terraform {
     }
   }
 }
-resource "aws_instance" "frontend" {
+resource "aws_instance" "Frontend" {
   ami           = "ami-09c813fb71547fc4f"
   instance_type = "t3.small"
   vpc_security_group_ids = [sgr-08aefd24fe317e4fe]
@@ -20,7 +20,7 @@ resource "aws_instance" "MongoDb" {
   instance_type = "t3.small"
   vpc_security_group_ids = [sgr-08aefd24fe317e4fe]
   tags = {
-    Name=MongooDb
+    Name=MongoDb
   }
 }
 
@@ -51,7 +51,7 @@ resource "aws_instance" "Redis" {
   }
 }
 
-resource "aws_instance" "MySql" {
+resource "aws_instance" "MySQL" {
   ami           = "ami-09c813fb71547fc4f"
   instance_type = "t3.small"
   vpc_security_group_ids = [sgr-08aefd24fe317e4fe]
@@ -60,12 +60,12 @@ resource "aws_instance" "MySql" {
   }
 }
 
-resource "aws_instance" "shipping" {
+resource "aws_instance" "Shipping" {
   ami           = "ami-09c813fb71547fc4f"
   instance_type = "t3.small"
   vpc_security_group_ids = [sgr-08aefd24fe317e4fe]
   tags = {
-    Name= shipping
+    Name= Shipping
   }
 }
 
