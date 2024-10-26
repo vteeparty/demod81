@@ -69,10 +69,10 @@ output "list1_1" {
 }
 
 output "course_info_map1" {
-  value = var.map1[aws][trainer]
+  value = var.map1["aws"]["trainer"]
 }
 
 output "duration_info_map1" {
-  value = var.map1[devops][course]
+  value = var.map1["devops"]["course"]
 }
 
