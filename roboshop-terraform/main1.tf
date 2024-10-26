@@ -11,7 +11,7 @@ resource "aws_instance" "Frontend" {
   instance_type = "t3.small"
   vpc_security_group_ids = [sgr-08aefd24fe317e4fe]
   tags = {
-    Name= Frontend
+    Name= "Frontend"
   }
 }
 
@@ -20,7 +20,7 @@ resource "aws_instance" "MongoDb" {
   instance_type = "t3.small"
   vpc_security_group_ids = [sgr-08aefd24fe317e4fe]
   tags = {
-    Name=MongoDb
+    Name="MongoDb"
   }
 }
 
@@ -29,7 +29,7 @@ resource "aws_instance" "Catalogue" {
   instance_type = "t3.small"
   vpc_security_group_ids = [sgr-08aefd24fe317e4fe]
   tags = {
-    Name= Catalogue
+    Name= "Catalogue"
   }
 }
 
@@ -38,7 +38,7 @@ resource "aws_instance" "User" {
   instance_type = "t3.small"
   vpc_security_group_ids = [sgr-08aefd24fe317e4fe]
   tags = {
-    Name= User
+    Name= "User"
   }
 }
 
@@ -47,7 +47,7 @@ resource "aws_instance" "Redis" {
   instance_type = "t3.small"
   vpc_security_group_ids = [sgr-08aefd24fe317e4fe]
   tags = {
-    Name= Redis
+    Name= "Redis"
   }
 }
 
@@ -56,7 +56,7 @@ resource "aws_instance" "MySQL" {
   instance_type = "t3.small"
   vpc_security_group_ids = [sgr-08aefd24fe317e4fe]
   tags = {
-    Name= MySQL
+    Name= "MySQL"
   }
 }
 
@@ -65,7 +65,7 @@ resource "aws_instance" "Shipping" {
   instance_type = "t3.small"
   vpc_security_group_ids = [sgr-08aefd24fe317e4fe]
   tags = {
-    Name= Shipping
+    Name= "Shipping"
   }
 }
 
@@ -74,7 +74,7 @@ resource "aws_instance" "RabbitMQ" {
   instance_type = "t3.small"
   vpc_security_group_ids = [sgr-08aefd24fe317e4fe]
   tags = {
-    Name= RabbitMQ
+    Name= "RabbiitMQ"
   }
 }
 
@@ -83,6 +83,6 @@ resource "aws_instance" "Payment" {
   instance_type = "t3.small"
   vpc_security_group_ids = [sgr-08aefd24fe317e4fe]
   tags = {
-    Name= Payment
+    Name= "Payment"
   }
 }
