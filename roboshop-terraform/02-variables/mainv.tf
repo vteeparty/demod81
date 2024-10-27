@@ -78,4 +78,6 @@ output "duration_info_map1" {
 
 ##we can declare a empty variable from cli unlike ansible or bash we must declare a variable
 
-variable "trainer_name" {}
+variable "trainer_name" {
+
+}
