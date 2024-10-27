@@ -76,3 +76,9 @@ output "duration_info_map1" {
   value = var.map1["devops"]["course"]
 }
 
+##we can declare a empty variable from cli unlike ansible or bash we must declare a variable
+
+variable "trainer_name" {}
+output "trainer_name" {
+  value = var.trainer_name
+}
