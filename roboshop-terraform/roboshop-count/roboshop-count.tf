@@ -29,5 +29,5 @@ resource "aws_route53_record" "record" {
   name    = "Frontend-dev.roboshop.icu"
   type    = "A"
   ttl     = "30"
-  records = [aws_instance.instances[count.index].private_ip"]
+  records = [aws_instance.instances[count.index].private_ip]
 }
